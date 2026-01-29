@@ -1,2 +1,3 @@
 # Wordbite
-Premium Tumblr Themes
+
+Front-facing website for Wordbite Tumblr Themes & Documentation
