@@ -1,0 +1,34 @@
+title: "Wordbite"
+email: "tumblr@wordbite.ca"
+description: "Wordbite Tumblr Themes & Documentation."
+
+baseurl: ""  # Empty for user sites; "/repo-name" for project sites
+url: ""
+
+# Collections: custom content types beyond posts
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Front matter defaults eliminate repetition
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Syntax highlighting
+highlighter: rouge
+kramdown:
+  syntax_highlighter: github

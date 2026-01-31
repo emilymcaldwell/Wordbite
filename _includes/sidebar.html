@@ -1,0 +1,21 @@
+<aside>
+  <nav class="sidebar-nav">
+    {% for section in site.data.navigation %}
+      <div class="nav-section">
+        <h3>{{ section.title }}</h3>
+        <ul>
+          {% for doc_path in section.docs %}
+            {% assign doc = site.docs | where: "slug", doc_path | first %}
+            {% if doc == nil %}
+              {% assign doc = site.docs | where_exp: "d", "d.path contains doc_path" | first %}
+            {% endif %}
+            
+            <li {% if page.url == doc.url %}class="active"{% endif %}>
+              <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </nav>
+</aside>
