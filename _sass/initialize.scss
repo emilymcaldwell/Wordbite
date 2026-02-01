@@ -1,3 +1,29 @@
-* {
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
   margin: 0;
+}
+
+html {
+  color-scheme: light dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  font-optical-sizing: auto;
+  text-size-adjust: none;
+  interpolate-size: allow-keywords;
+  scroll-behavior: smooth;
+  /*scroll-margin-block-start: $header-height;*/
+  -webkit-tap-highlight-color: transparent;
+  font-family: $body-font;
+  font-weight: 400;
+}
+
+body {
+  color: $text-colour;
+  background-color: $text-colour;
+  line-height: 1.5;
 }
