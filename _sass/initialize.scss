@@ -28,6 +28,28 @@ body {
   line-height: 1.5;
 }
 
+button {
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+.title, h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: normal;
+  text-wrap: balanced;
+}
+
+.title, h1, h2 {
+  font-family: var(--title);
+}
+
+.title { font-size: 1.5rem; }
+h1 { font-size: 1.4rem; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1rem; }
+
 .material-symbols {
   font-family: 'Material Symbols';
   font-weight: normal;

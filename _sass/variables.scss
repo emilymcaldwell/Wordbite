@@ -10,6 +10,8 @@ $card-colour: color-mix(in srgb, $text-colour 30%, $background-colour 70%);
 $accent-card: color-mix(in srgb, $accent-colour 30%, $background-colour 70%);
 // fonts
 $body-font: "Inter", Arial, Helvetica, sans-serif;
+$title-font: "Bricolage Grotesque", Arial, Helvetica, sans-serif;
+$mono-font: "Google Sans Code"'Courier New', Courier, monospace;
 // sizes
 $header-height: 80px;
 $corner-rounding: 8px;
