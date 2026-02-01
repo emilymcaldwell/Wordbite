@@ -37,11 +37,11 @@ header {
   }
 
   #theme-switch {
-    color: $accent-colour;
+    color: light-dark($blue, $yellow);
     transition: all 200ms ease-in-out;
 
     &:hover {
-      background-color: $accent-card;
+      background-color: $card-colour;
     }
   }
 }
