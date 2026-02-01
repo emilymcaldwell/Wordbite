@@ -19,5 +19,4 @@ function changeTheme() {
     localStorage.setItem('theme', 'light');
       elem.style.colorScheme = localStorage.getItem('theme');
   }
-  console.log(elem.style.colorScheme)
 }
