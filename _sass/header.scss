@@ -14,12 +14,12 @@ header {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    color: var(--fc);
+    color: $a;
     background-color: transparent;
-    border-radius: var(--corners);
+    border-radius: $corner-rounding;
 
     &:hover {
-      background-color: var(--cd);
+      background-color: $card-colour;
     }
   }
 
@@ -41,7 +41,7 @@ header {
     transition: all 200ms ease-in-out;
 
     &:hover {
-      background-color: var(--ta);
+      background-color: $accent-card;
     }
   }
 }
