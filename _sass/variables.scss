@@ -6,7 +6,7 @@ $background-colour: light-dark(#ffffff, #1c2129);
 $text-colour: light-dark(#0f1419, #c4c6cc);
 $link-colour: light-dark(#878a8c, #70737a);
 $border-colour: light-dark(#d1dbdf, #464a4f);
-$card-colour: color-mix(in srgb, $text-colour 30%, $background-colour 70%);
+$card-colour: color-mix(in srgb, $text-colour 20%, $background-colour 80%);
 $accent-card: color-mix(in srgb, $accent-colour 30%, $background-colour 70%);
 // fonts
 $body-font: "Inter", Arial, Helvetica, sans-serif;

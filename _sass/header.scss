@@ -1,9 +1,11 @@
 header {
+  display: flex;
+  align-items: center;
   height: $header-height;
 }
 
 .header-inner {
-  align-items: center;
+  align-items: inherit;
 }
 
 .header-nav {

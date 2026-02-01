@@ -29,7 +29,7 @@ body {
 }
 
 [class$="-inner"] {
-  display: flex;
+  display: inherit;
   width: 100%;
   max-width: $content-width;
   margin: 0 auto;
@@ -53,7 +53,7 @@ button {
   font-family: $title-font;
 }
 
-.title { font-size: 1.5rem; }
+.title { font-size: 1.6rem; }
 h1 { font-size: 1.4rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1rem; }
