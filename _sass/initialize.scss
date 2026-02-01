@@ -28,6 +28,13 @@ body {
   line-height: 1.5;
 }
 
+[class$="-inner"] {
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $padding-size;
+}
+
 button {
   appearance: none;
   background-color: transparent;
