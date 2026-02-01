@@ -2,6 +2,9 @@ header {
   display: flex;
   align-items: center;
   height: $header-height;
+  background-color: color-mix(in srgb, transparent 50%, $background-colour 50%);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid $border-colour;
 }
 
 .header-inner {
