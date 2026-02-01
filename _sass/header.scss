@@ -14,11 +14,14 @@ header {
 
 #breadcrumbs {
   display: flex;
+  border-top: 1px solid $border-colour;
+}
+
+.breadcrumbs-inner {
   align-items: center;
   font-size: 0.9rem;
   font-family: $mono-font;
   line-height: normal;
-  border-top: 1px solid $border-colour;
   padding: calc($padding-size / 4) $padding-size;
 
   .material-symbols {
