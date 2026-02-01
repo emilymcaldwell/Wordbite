@@ -15,10 +15,10 @@ header {
 #breadcrumbs {
   display: flex;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: $mono-font;
   border-top: 1px solid $border-colour;
-  padding: 0 $padding-size;
+  padding: calc($padding-size / 2) $padding-size;
 
   .material-symbols {
     font-size: 1rem;
