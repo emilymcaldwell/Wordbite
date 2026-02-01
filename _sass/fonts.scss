@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: 'Material Symbols';
-  src: url("{{ '/assets/fonts/Material-Symbols.woff2' | relative_url }}") format('woff2-variations');
+  src: url('{{ site.url }}/assets/fonts/Material-Symbols.woff2') format('woff2-variations');
   font-weight: 100 700;
   font-style: normal;
   font-display: block;
