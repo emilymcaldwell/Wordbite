@@ -14,9 +14,16 @@ header {
 
 #breadcrumbs {
   display: flex;
-  gap: calc($padding-size / 2);
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: $mono-font;
   border-top: 1px solid $border-colour;
   padding: 0 $padding-size;
+
+  .material-symbols {
+    font-size: 1rem;
+    width: 1rem;
+  }
 }
 
 .header-nav {
