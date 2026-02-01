@@ -14,7 +14,7 @@ header {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    color: $a;
+    color: $accent-colour;
     background-color: transparent;
     border-radius: $corner-rounding;
 
@@ -37,7 +37,7 @@ header {
   }
 
   #theme-switch {
-    color: var(--accent);
+    color: $accent-colour;
     transition: all 200ms ease-in-out;
 
     &:hover {
