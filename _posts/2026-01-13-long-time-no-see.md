@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Long time no see!"
-date: 2026-01-13
-categories: [updates]
-tags: [updates]
 ---
 
 # Long time no see!
