@@ -1,8 +1,17 @@
 <aside>
   <nav class="sidebar-nav">
-    {% for post in site.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <blockquote>{{ post.excerpt }}</blockquote>
-    {% endfor %}
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <details>
+      <summary>posts</summary>
+      {% for doc in site.docs %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </details>
+    <details>
+      <summary>posts</summary>
+      {% for post in site.posts %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </details>
   </nav>
 </aside>
