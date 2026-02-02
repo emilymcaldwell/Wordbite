@@ -36,6 +36,16 @@ body {
   padding: 0 $padding-size;
 }
 
+dl {
+  display: grid;
+  border-left: 2px solid $border-colour;
+}
+
+ol, ul {
+  list-style-position: inside;
+  padding: 0 1lh;
+}
+
 button {
   appearance: none;
   background-color: transparent;
