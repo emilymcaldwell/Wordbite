@@ -6,3 +6,8 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
 }
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
