@@ -1,10 +1,16 @@
 <aside>
   <nav class="sidebar-nav">
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    {%- for path in include.paths -%}
+    {%- assign hyperpage = site.pages | where: "path", path | first -%}
+    {%- if hyperpage.title %}
+    <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
+    {%- endif -%}
+    {%- endfor %}
     <details>
       <summary>posts</summary>
       {% for doc in site.docs %}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ page.url }}">{{ page.title }}</a>
       {% endfor %}
     </details>
     <details>
