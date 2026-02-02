@@ -19,13 +19,15 @@
    </header>
 
     <div id="layout">
-      {%- include sidebar.html -%}
-      <main>
-        <section>
-          {{ content }}
-        </section>
-        <!-- {% include footer.html %} --commented out until i add in /_includes-->
-      </main>
+      <div class="layout-inner">
+        {%- include sidebar.html -%}
+        <main>
+          <section>
+            {{ content }}
+          </section>
+          <!-- {% include footer.html %} --commented out until i add in /_includes-->
+        </main>
+      </div>
     </div>
 
     <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
