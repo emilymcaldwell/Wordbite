@@ -5,6 +5,7 @@
 .layout-inner {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  margin: $padding-size 0;
 }
 
 .sidebar-nav {
@@ -34,7 +35,7 @@ table {
    td {
     &.book-rating {
       display: inline-table;
-      
+
       span {
         display: block;
         background-color: goldenrod;
