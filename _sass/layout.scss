@@ -33,6 +33,12 @@ table {
   width: 100%;
 
    td {
+    &.book-status {
+      &[data-sort="1"] {
+        background-color: $accent-card;
+      }
+    }
+
     &.book-rating {
       display: inline-table;
 
