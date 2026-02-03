@@ -30,11 +30,11 @@ article {
 
 table {
   width: 100%;
-  
-   td {
-    display: inline-table;
 
+   td {
     &.book-rating {
+      display: inline-table;
+      
       span {
         display: block;
         background-color: goldenrod;
