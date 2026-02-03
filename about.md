@@ -28,7 +28,7 @@ permalink: /about/
       <td class="book-title">{{ book.title }}</td>
       <td class="book-author">{{ book.author }}</td>
       {% assign status_array = book.status | split: ", " %}
-      <td class="book-status" data-sort="{{ status_array | first }}">{{ book.status[1] }}</td>
+      <td class="book-status" data-sort="{{ status_array | first }}">{{ status_array | last }}</td>
       <td class="book-rating" data-sort="{{ book.rating }}"><span style="width:{{ book.rating | times:20 | round: 0 }}%">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
       <td class="book-date" data-sort="{{ book.date }}">{{ book.date | date: "%B %-d, %Y" }}</td>
     </tr>
