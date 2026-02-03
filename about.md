@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<table class="table-sort table-arrows remember-sort">
+<table class="table-sort table-arrows-⇈⇋⇊ remember-sort">
   <caption>Book Tracker</caption>
   <thead>
     <tr>
@@ -21,7 +21,7 @@ permalink: /about/
       <td class="book-title">{{ book.title }}</td>
       <td class="book-author">{{ book.author }}</td>
       <td class="book-status {{ book.status }}">{{ book.status }}</td>
-      <td class="book-rating">{{ book.rating }}</td>
+      <td class="book-rating stars-{{ page.stars | times:20 | round: 0 }}">{{ book.rating }}</td>
       <td class="book-date">{{ book.date | date: "%B %-d, %Y" }}</td>
     </tr>
     {% endfor %}
