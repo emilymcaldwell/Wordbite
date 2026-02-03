@@ -36,7 +36,25 @@ table {
     &.book-status {
       &[data-sort="1"] {
         span {
-          background-color: $accent-card;
+          background-color: color-mix(in srgb, $green 20%, $background-colour 80%);
+        }
+      }
+
+      &[data-sort="2"] {
+        span {
+          background-color: color-mix(in srgb, $blue 20%, $background-colour 80%);
+        }
+      }
+
+      &[data-sort="3"] {
+        span {
+          background-color: color-mix(in srgb, $purple 20%, $background-colour 80%);
+        }
+      }
+
+      &[data-sort="4"] {
+        span {
+          background-color: color-mix(in srgb, $red 20%, $background-colour 80%);
         }
       }
     }
