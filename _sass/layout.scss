@@ -33,22 +33,8 @@ table {
   width: 100%;
 
    td {
-    &.book-status {
-      [data-sort="1"] {
-        content: 'finished';
-      }
-
-      [data-sort="2"] {
-        content: 'currently reading';
-      }
-
-      [data-sort="3"] {
-        content: 'to be read';
-      }
-
-      [data-sort="4"] {
-        content: 'dropped';
-      }
+    &.book-status[data-sort="1"] {
+      content: 'finished';
     }
 
     &.book-rating {
