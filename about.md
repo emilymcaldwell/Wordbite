@@ -19,7 +19,7 @@ permalink: /about/
     <tr> <!--current book-->
       <td class="book-title">Nettle & Bone</td>
       <td class="book-author">T. Kingfisher</td>
-      <td class="book-status reading">reading</td>
+      <td class="book-status" data-sort="2">reading</td>
       <td class="book-rating" data-sort="0"><span style="width:0">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
       <td class="book-date" data-sort="{{ site.time | date: '%Y/%m/%d' }}">{{ site.time | date: "%B %-d, %Y" }}</td>
     </tr>
