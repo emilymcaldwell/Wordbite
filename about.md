@@ -12,7 +12,7 @@ permalink: /about/
       <th>Author</th>
       <th>Status</th>
       <th class="data-sort">Rating</th>
-      <th class="onload-sort order-by-desc">Date Read</th>
+      <th class="onload-sort order-by-desc data-sort">Date Read</th>
     </tr>
   </thead>
   <tbody>
