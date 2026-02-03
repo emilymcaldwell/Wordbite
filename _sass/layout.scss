@@ -43,5 +43,9 @@ table {
         -webkit-text-fill-color: transparent;
       }
     }
-   }
+
+    &.book-date {
+      font-family: $mono-font;
+    }
+  }
 }
