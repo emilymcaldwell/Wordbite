@@ -27,3 +27,17 @@ article {
     }
   }
 }
+
+table {
+  width: 100%;
+   td {
+    &.book-rating {
+      span {
+        display: block;
+        background-color: goldenrod;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+   }
+}
