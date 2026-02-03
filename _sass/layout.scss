@@ -33,10 +33,6 @@ table {
   width: 100%;
 
    td {
-    &.book-status[data-sort="1"] {
-      content: 'finished';
-    }
-
     &.book-rating {
       display: inline-table;
 
