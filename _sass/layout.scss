@@ -36,6 +36,7 @@ table {
     &.book-status {
       &[data-sort] {
         span {
+          color: black;
           font-size: 0.9rem;
           padding: 1px 8px;
           border-radius: 50px;
@@ -44,25 +45,25 @@ table {
 
       &[data-sort="1"] {
         span {
-          background-color: color-mix(in srgb, $green 30%, $background-colour 70%);
+          background-color: rgb(109, 148, 127);
         }
       }
 
       &[data-sort="2"] {
         span {
-          background-color: color-mix(in srgb, $blue 30%, $background-colour 70%);
+          background-color: rgb(125, 161, 194);
         }
       }
 
       &[data-sort="3"] {
         span {
-          background-color: color-mix(in srgb, $purple 30%, $background-colour 70%);
+          background-color: rgb(129, 128, 163);
         }
       }
 
       &[data-sort="4"] {
         span {
-          background-color: color-mix(in srgb, $red 30%, $background-colour 70%);
+          background-color: rgb(158, 86, 98);
         }
       }
     }
