@@ -2,7 +2,7 @@
   author: T. Kingfisher
   status: reading
   rating: 0
-  date: <%= Time.now.strftime('$Y/$m/$d')
+  date: <%= Time.now.strftime('$Y/$m/$d') %>
 
 - title: The Love Hypothesis
   author: Ali Hazelwood
