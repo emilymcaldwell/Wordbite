@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<table>
+<table class="table-sort">
   <caption>Book Tracker</caption>
   <thead>
     <tr>
@@ -12,7 +12,7 @@ permalink: /about/
       <th>Author</th>
       <th>Status</th>
       <th>Rating</th>
-      <th>Date Read</th>
+      <th class="onload-sort">Date Read</th>
     </tr>
   </thead>
   <tbody>
