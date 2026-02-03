@@ -1,23 +1,28 @@
+# 1 : finished
+# 2 : reading
+# 3 : to be read
+# 4 : dropped
+
 - title: The Love Hypothesis
   author: Ali Hazelwood
-  status: completed
+  status: 1, completed
   rating: 5
   date: 2023/09/02
 
 - title: One Dark Window
   author: Rachel Gillig
-  status: completed
+  status: 1, completed
   rating: 5
   date: 2023/09/29
 
 - title: The Wren in the Holly Library
   author: K.A. Linde
-  status: completed
+  status: 1, completed
   rating: 4.5
   date: 2025/12/16
 
 - title: Harem Number 349
   author: Shmall Pepe
-  status: dropped
+  status: 4, dropped
   rating: 1
   date: 2025/04/20
