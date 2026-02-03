@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<table class="table-sort">
+<table class="table-sort table-arrows remember-sort">
   <caption>Book Tracker</caption>
   <thead>
     <tr>
