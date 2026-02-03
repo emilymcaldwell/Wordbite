@@ -1,7 +1,13 @@
 # 1 : finished
-# 2 : reading
+# 2 : currently reading
 # 3 : to be read
 # 4 : dropped
+
+- title: Nettle & Bone
+  author: T. Kingfisher
+  status: 2, currently reading
+  rating: 
+  date: 
 
 - title: The Love Hypothesis
   author: Ali Hazelwood
@@ -30,5 +36,5 @@
 - title: The Knave and the Moon
   author: Rachel Gillig
   status: 3, to be read
-  rating: 0
+  rating: 
   date: 
