@@ -45,25 +45,29 @@ table {
 
       &[data-sort="1"] {
         span {
-          background-color: #6d947f;
+          background-color: #71A08D;
+          background-color: color-mix(in srgb, $green 50%, $text-colour 50%);
         }
       }
 
       &[data-sort="2"] {
         span {
-          background-color: #7da1c2;
+          background-color: #6385c0;
+          background-color: color-mix(in srgb, $blue 50%, $text-colour 50%);
         }
       }
 
       &[data-sort="3"] {
         span {
-          background-color: #8180a3;
+          background-color: #978cb9;
+          background-color: color-mix(in srgb, $purple 50%, $text-colour 50%);
         }
       }
 
       &[data-sort="4"] {
         span {
-          background-color: #9e5662;
+          background-color: #eda09c;
+          background-color: color-mix(in srgb, $red 50%, $text-colour 50%);
         }
       }
     }
