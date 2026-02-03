@@ -35,7 +35,9 @@ table {
    td {
     &.book-status {
       &[data-sort="1"] {
-        background-color: $accent-card;
+        span {
+          background-color: $accent-card;
+        }
       }
     }
 

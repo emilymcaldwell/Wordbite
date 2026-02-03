@@ -19,7 +19,7 @@ permalink: /about/
     <tr> <!--current book-->
       <td class="book-title">Nettle & Bone</td>
       <td class="book-author">T. Kingfisher</td>
-      <td class="book-status" data-sort="2">reading</td>
+      <td class="book-status" data-sort="2"><span>reading</span></td>
       <td class="book-rating" data-sort="0"><span style="width:0">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
       <td class="book-date" data-sort="{{ site.time | date: '%Y/%m/%d' }}">{{ site.time | date: "%B %-d, %Y" }}</td>
     </tr>
@@ -28,7 +28,7 @@ permalink: /about/
       <td class="book-title">{{ book.title }}</td>
       <td class="book-author">{{ book.author }}</td>
       {% assign status_array = book.status | split: ", " %}
-      <td class="book-status" data-sort="{{ status_array | first }}">{{ status_array | last }}</td>
+      <td class="book-status" data-sort="{{ status_array | first }}"><span>{{ status_array | last }}</span></td>
       <td class="book-rating" data-sort="{{ book.rating }}"><span style="width:{{ book.rating | times:20 | round: 0 }}%">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
       <td class="book-date" data-sort="{{ book.date }}">{{ book.date | date: "%B %-d, %Y" }}</td>
     </tr>
