@@ -30,7 +30,10 @@ article {
 
 table {
   width: 100%;
+  
    td {
+    display: inline-table;
+
     &.book-rating {
       span {
         display: block;
