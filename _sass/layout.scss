@@ -44,28 +44,24 @@ table {
 
       &[data-sort="1"] {
         span {
-          background-color: #71A08D;
           background-color: color-mix(in srgb, $green 70%, $background-colour 30%);
         }
       }
 
       &[data-sort="2"] {
         span {
-          background-color: #6385c0;
           background-color: color-mix(in srgb, $blue 70%, $background-colour 30%);
         }
       }
 
       &[data-sort="3"] {
         span {
-          background-color: #978cb9;
           background-color: color-mix(in srgb, $purple 70%, $background-colour 30%);
         }
       }
 
       &[data-sort="4"] {
         span {
-          background-color: #eda09c;
           background-color: color-mix(in srgb, $red 70%, $background-colour 30%);
         }
       }
