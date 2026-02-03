@@ -10,7 +10,7 @@ permalink: /about/
     <tr>
       <th>Title</th>
       <th>Author</th>
-      <th class="data-sort">Status</th>
+      <th>Status</th>
       <th class="data-sort">Rating</th>
       <th class="onload-sort order-by-desc data-sort">Date Read</th>
     </tr>
