@@ -11,7 +11,7 @@ permalink: /about/
       <th>Title</th>
       <th>Author</th>
       <th>Status</th>
-      <th>Rating</th>
+      <th class="data-sort">Rating</th>
       <th class="onload-sort order-by-desc">Date Read</th>
     </tr>
   </thead>
@@ -21,7 +21,7 @@ permalink: /about/
       <td class="book-title">{{ book.title }}</td>
       <td class="book-author">{{ book.author }}</td>
       <td class="book-status {{ book.status }}">{{ book.status }}</td>
-      <td class="book-rating"><span style="width:{{ book.rating | times:20 | round: 0 }}%">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
+      <td class="book-rating" data-sort="{{ book.rating }}"><span style="width:{{ book.rating | times:20 | round: 0 }}%">star_ratestar_ratestar_ratestar_ratestar_rate</span></td>
       <td class="book-date">{{ book.date }}</td>
     </tr>
     {% endfor %}
