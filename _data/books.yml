@@ -30,5 +30,5 @@
 - title: The Knave and the Moon
   author: Rachel Gillig
   status: 3, to be read
-  rating: 1
-  date: {{ site.time | date: '%Y/%m/%d' }}
+  rating: 0
+  date: 0000/00/00
