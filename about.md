@@ -22,7 +22,7 @@ permalink: /about/
       <td class="book-author">{{ book.author }}</td>
       <td class="book-status {{ book.status }}">{{ book.status }}</td>
       <td class="book-rating"><span style="width:{{ book.rating | times:20 | round: 0 }}%">★★★★★</span></td>
-      <td class="book-date">{{ book.date | date: "%B %-d, %Y" }}</td>
+      <td class="book-date">{{ book.date }}</td>
     </tr>
     {% endfor %}
   </tbody>
