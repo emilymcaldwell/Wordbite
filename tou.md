@@ -2,6 +2,7 @@
 layout: page
 title: Terms of use
 permalink: /tou/
+toc: true
 ---
 
 # Terms of Use
