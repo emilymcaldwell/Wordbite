@@ -27,6 +27,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
 
 # Syntax highlighting
 highlighter: rouge
