@@ -45,6 +45,7 @@ table {
 
       &[data-sort="1"] {
         span {
+          content:"finished";
           background-color: color-mix(in srgb, $green 80%, $background-colour 20%);
         }
       }
