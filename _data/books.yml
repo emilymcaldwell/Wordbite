@@ -1,8 +1,8 @@
 definitions:
-  - &read 1, finished
-  - &cr 2, currently reading
-  - &tbr 3, to be read
-  - &dnf 4, dropped
+  - &read "1, finished"
+  - &cr "2, currently reading"
+  - &tbr "3, to be read"
+  - &dnf "4, dropped"
 
 books:
   - title: Nettle & Bone
