@@ -10,26 +10,31 @@ books:
     status: *cr
     rating: 
     date: 
+
   - title: The Love Hypothesis
     author: Ali Hazelwood
     status: *read
     rating: 5
     date: 2023/09/02
+
   - title: One Dark Window
     author: Rachel Gillig
     status: *read
     rating: 5
     date: 2023/09/29
+
   - title: The Wren in the Holly Library
     author: K.A. Linde
     status: *read
     rating: 4.5
     date: 2025/12/16
+
   - title: Harem Number 349
     author: Shmall Pepe
     status: *dnf
     rating: 1
     date: 2025/04/20
+    
   - title: The Knave and the Moon
     author: Rachel Gillig
     status: *tbr
