@@ -1,11 +1,8 @@
----
-
-- &read 1, finished
-- &cr 2, currently reading
-- &tbr 3, to be read
-- &dnf 4, dropped
-
----
+- variables:
+  &read: 1, finished
+  &cr: 2, currently reading
+  &tbr: 3, to be read
+  &dnf: 4, dropped
 
 - title: Nettle & Bone
   author: T. Kingfisher
