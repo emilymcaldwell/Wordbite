@@ -46,26 +46,27 @@ table {
       &[data-sort="1"] {
         &::after {
           content:"finished";
-        }
-        span {
           background-color: color-mix(in srgb, $green 80%, $background-colour 20%);
         }
       }
 
       &[data-sort="2"] {
-        span {
+        &::after {
+          content:"currently reading";
           background-color: color-mix(in srgb, $blue 80%, $background-colour 20%);
         }
       }
 
       &[data-sort="3"] {
-        span {
+        &::after {
+          content:"to be read";
           background-color: color-mix(in srgb, $purple 80%, $background-colour 20%);
         }
       }
 
       &[data-sort="4"] {
-        span {
+        &::after {
+          content:"dropped";
           background-color: color-mix(in srgb, $red 80%, $background-colour 20%);
         }
       }
