@@ -36,6 +36,10 @@ table {
     &.book-status {
       &[data-sort] {
         span {
+          display: none;
+        }
+        
+        &::after {
           color: light-dark(black, white);
           font-size: 0.9rem;
           padding: 1px 8px;
