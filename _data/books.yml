@@ -1,50 +1,62 @@
 definitions:
   - &read 
+    title: Title
+    author: Author
     status-sort: 1
     status: finished
+    rating: 
+    date: 
   - &cr 
+    title: Title
+    author: Author
     status-sort: 2
     status: currently reading
+    rating: 
+    date: 
   - &tbr 
+    title: Title
+    author: Author
     status-sort: 3
     status: to be read
+    rating: 
+    date: 
   - &dnf 
+    title: Title
+    author: Author
     status-sort: 4
     status: dropped
-
-books:
-  - title: Nettle & Bone
-    author: T. Kingfisher
-    *cr
     rating: 
     date: 
 
-  - title: The Love Hypothesis
+books:
+  - <<: *cr 
+    title: Nettle & Bone
+    author: T. Kingfisher
+
+  - <<: *read
+    title: The Love Hypothesis
     author: Ali Hazelwood
-    *read
     rating: 5
     date: 2023/09/02
 
-  - title: One Dark Window
+  - <<: *read
+    title: One Dark Window
     author: Rachel Gillig
-    *read
     rating: 5
     date: 2023/09/29
 
-  - title: The Wren in the Holly Library
+  - <<: *read
+    title: The Wren in the Holly Library
     author: K.A. Linde
-    *read
     rating: 4.5
     date: 2025/12/16
 
-  - title: Harem Number 349
+  - <<: *dnf 
+    title: Harem Number 349
     author: Shmall Pepe
-    *dnf
     rating: 1
     date: 2025/04/20
 
-  - title: The Knave and the Moon
+  - <<: *tbr 
+    title: The Knave and the Moon
     author: Rachel Gillig
-    *tbr
-    rating: 
-    date: 
