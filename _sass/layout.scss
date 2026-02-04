@@ -4,7 +4,7 @@
 
 .layout-inner {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
   margin: $padding-size auto;
 }
 
@@ -38,7 +38,7 @@ table {
         span {
           display: none;
         }
-        
+
         &::after {
           color: light-dark(black, white);
           font-size: 0.9rem;
