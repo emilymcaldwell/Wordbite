@@ -32,7 +32,8 @@ For more information refer to my [Terms of Use](/).
 
 5 custom links with ability to choose an icon from a drop down menu in Tumblr’s Customisation Menu.
 
-> Home, Ask, Submit, Archive & Tumblr page links do not have a custom icon selection, refer to [Google’s Material Symbols](/) documentation for a comprehensive list of available icons.if you want to change the icons. {: .notice}
+> Home, Ask, Submit, Archive & Tumblr page links do not have a custom icon selection, refer to [Google’s Material Symbols](/) documentation for a comprehensive list of available icons.if you want to change the icons.
+{: .notice}
 
 Updates section will be hidden automatically if the text box is left empty in Tumblr’s Customisation Menu, the title is optional and ***will not*** hide the updates section if left empty.
 
