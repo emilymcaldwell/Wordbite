@@ -121,7 +121,11 @@ table {
 #toc {
   position-anchor: --toc-anchor;
   position: fixed;
-  inset-block-start: anchor(end);
+  inset-block-start: anchor(start);
   inset-inline-start: anchor(self-end);
-  margin: 5px 0 0 5px;
+
+  .toc-h1 {
+    position: sticky;
+    top: $padding-size;
+  }
 }
