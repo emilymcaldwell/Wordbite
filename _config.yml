@@ -15,6 +15,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
+toc:
+  min_level: 1
+  max_level: 3
+  list_class: toc-list
+  sublist_class: toc-sublist
+
 highlighter: rouge
 kramdown:
   syntax_highlighter: github

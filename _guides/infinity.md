@@ -1,5 +1,6 @@
 ---
 layout: page
+toc: true
 ---
 
 # Infinity Theme Guide
