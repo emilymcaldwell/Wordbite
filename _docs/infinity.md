@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Infinity Theme Guide
 
 Infinity is a responsive, single column Tumblr theme inspired by the look and feel of Twitter. Features a search bar, updates tab and easily customisable colours, fonts & sizes.
