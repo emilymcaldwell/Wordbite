@@ -5,13 +5,11 @@ description: "Wordbite Tumblr Themes & Documentation."
 baseurl: ""  # Empty for user sites; "/repo-name" for project sites
 url: ""
 
-# Collections: custom content types beyond posts
 collections:
   docs:
     output: true
-    permalink: /docs/:path/
+    permalink: /guides/:path/
 
-# Front matter defaults eliminate repetition
 defaults:
   - scope:
       path: ""
@@ -29,7 +27,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
-# Syntax highlighting
 highlighter: rouge
 kramdown:
   syntax_highlighter: github
