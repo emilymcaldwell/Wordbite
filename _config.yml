@@ -10,18 +10,6 @@ collections:
     output: true
     permalink: /guides/:path/
 
-defaults:
-  - scope:
-      path: ""
-      type: "guides"
-    values:
-      layout: "guide"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
