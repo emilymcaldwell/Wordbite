@@ -119,8 +119,8 @@ table {
 /********** TABLE OF CONTENTS **********/
 
 #toc {
+  position: absolute;
   position-anchor: --toc-anchor;
-  position: fixed;
   inset-block-start: anchor(start);
   inset-inline-start: anchor(self-end);
   height: 100%;
