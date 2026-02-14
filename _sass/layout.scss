@@ -45,6 +45,7 @@ article {
 
   a {
     color: $accent-colour;
+    text-decoration: underline;
 
     &:hover {
       color: $text-colour;
