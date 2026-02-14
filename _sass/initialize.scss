@@ -37,6 +37,18 @@ body {
   padding: 0 $padding-size;
 }
 
+a {
+  font-weight: 550;
+  color: $link-colour;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    color: $accent-colour;
+  }
+}
+
 dl {
   display: grid;
   border-left: 2px solid $border-colour;
@@ -45,6 +57,16 @@ dl {
 ol, ul {
   list-style-position: inside;
   padding: 0 1lh;
+}
+
+hr {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: $border-colour;
+  box-shadow: 0;
+  border: 0;
+  margin: 0;
 }
 
 button {

@@ -17,6 +17,8 @@ For more information refer to my [Terms of Use](/).
 
 ---
 
+## Theme Preview Credits
+
 **Avatar Image:** [@username](/)  
 **Header Image:** [@username](/)
 
@@ -32,7 +34,7 @@ For more information refer to my [Terms of Use](/).
 
 > Home, Ask, Submit, Archive & Tumblr page links do not have a custom icon selection, refer to [Google’s Material Symbols](/) documentation for a comprehensive list of available icons.if you want to change the icons.
 
-Updates section will be hidden automatically if the text box is left empty in Tumblr’s Customisation Menu, the title is optional and <u>**will not**</u> hide the updates section if left empty.
+Updates section will be hidden automatically if the text box is left empty in Tumblr’s Customisation Menu, the title is optional and ***will not*** hide the updates section if left empty.
 
 The sidebar is mobile responsive and will resize or otherwise change format to fit the screen. Some content, such as the updates section, will not be visible.
 
