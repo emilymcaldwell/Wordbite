@@ -22,7 +22,7 @@ For more information refer to my [Terms of Use](/).
 **Avatar Image:** [@username](/)  
 **Header Image:** [@username](/)
 
-**Google Fonts:** Inter, Space Grotesk, Google Sans Code, Noto Serif, Caveat, Material Symbols
+**Google Fonts:** Inter, Google Sans Code, Material Symbols
 
 ---
 
