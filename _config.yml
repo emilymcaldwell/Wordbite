@@ -2,7 +2,7 @@ title: "Wordbite"
 email: "tumblr@wordbite.ca"
 description: "Wordbite Tumblr Themes & Documentation."
 
-baseurl: ""  # Empty for user sites; "/repo-name" for project sites
+baseurl: ""
 url: ""
 
 collections:
