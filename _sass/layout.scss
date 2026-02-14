@@ -4,13 +4,27 @@
 
 .layout-inner {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-  margin: $padding-size auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: $padding-size;
+  margin: 0 auto;
+}
+
+/********** ASIDE **********/
+
+aside {
+  border-right: 1px solid $border-colour;
 }
 
 .sidebar-nav {
   display: flex;
   flex-direction: column;
+  margin-top: $padding-size;
+}
+
+/********** MAIN CONTENT **********/
+
+section {
+  margin-top: $padding-size;
 }
 
 article {
