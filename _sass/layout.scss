@@ -25,12 +25,12 @@ aside {
 /********** MAIN CONTENT **********/
 
 section {
-  anchor-name: --toc-anchor;
   margin: $padding-size 0;
 }
 
 article {
   position: relative;
+  anchor-name: --toc-anchor;
 
   > * {
     margin: $padding-size 0;
