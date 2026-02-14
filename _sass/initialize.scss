@@ -72,9 +72,9 @@ hr {
 blockquote {
   display: block;
   width: fit-content;
-  background-color: color-mix(in srgb, var(--lc) 15%, var(--bg) 85%);
-  border: 1px solid var(--lc);
-  border-left: 4px solid var(--lc);
+  background-color: color-mix(in srgb, $link-colour 15%, $background-colour 85%);
+  border: 1px solid $link-colour;
+  border-left: 4px solid $link-colour;
   border-radius: 4px;
   padding: 1rem;
 
