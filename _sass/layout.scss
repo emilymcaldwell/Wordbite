@@ -42,6 +42,14 @@ article {
       margin-bottom: 0;
     }
   }
+
+  a {
+    color: $accent-colour;
+
+    &:hover {
+      color: $text-colour;
+    }
+  }
 }
 
 table {
