@@ -6,7 +6,7 @@ baseurl: ""
 url: ""
 
 collections:
-  docs:
+  guides:
     output: true
     permalink: /guides/:path/
 
