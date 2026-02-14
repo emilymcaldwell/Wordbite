@@ -25,6 +25,7 @@ aside {
 /********** MAIN CONTENT **********/
 
 section {
+  anchor-name: --toc-anchor;
   margin: $padding-size 0;
 }
 
@@ -113,4 +114,12 @@ table {
       }
     }
   }
+}
+
+/********** TABLE OF CONTENTS **********/
+
+#toc {
+  position: absolute;
+  position-anchor: --toc-anchor;
+  position-area: top right;
 }
