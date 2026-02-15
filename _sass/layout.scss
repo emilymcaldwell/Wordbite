@@ -123,7 +123,7 @@ table {
   position-anchor: --toc-anchor;
   inset-block-start: anchor(start);
   inset-inline-start: anchor(self-end);
-  height: 100%;
+  height: stretch;
 
   .toc-h1 {
     position: sticky;
