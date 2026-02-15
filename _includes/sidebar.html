@@ -2,18 +2,19 @@
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>{{ site.title | escape }}</a>
 
-    {% for node in site.pages %}
-      {% if node.url contains base_url %}
-        {% assign node_url_parts = node.url | split: '/' %}
-        {% assign node_url_parts_size = node_url_parts | size %}
-        {% assign filename = node_url_parts | last %}
-        {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-          <li {% if page.url == node.url %}class="active"{% endif %}>
+    <li class="current"><a href="/" title="">Home</a></li>
+    <li class="has-children">
+      <a href="#0" title="">All Pages</a>
+      <ul class="sub-menu">
+        {% for node in site.pages %}
+        {% unless node.title contains 'Home' %}
+        <li {% if page.url==node.url %}class="active" {% endif %}>
           <a href="{{ node.url | absolute_url }}">{{ node.title }}</a>
         </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+        {% endunless %}
+        {% endfor %}
+      </ul>
+    </li>
 
     <details open>
       <summary>guides</summary>
