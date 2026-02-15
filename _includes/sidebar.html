@@ -3,7 +3,7 @@
     <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     {% for page in site.pages %}
       {% if page.title and page.layout == "page" %}
-        <a href="{{ page.url | relative_url }}" {% if site.url == page.url %} class="active"{% endif %}></a>>
+        <a href="{{ page.url | relative_url }}" {% if site.url contains page.url %} class="active"{% endif %}></a>
           {{ page.title }}
         </a>
       {% endif %}
