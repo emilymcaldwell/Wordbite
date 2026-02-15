@@ -2,8 +2,12 @@
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     {% for page in site.pages %}
+      {% assign url = page.url | remove:'index.html' | remove:'/' %}
+      {% assign link_url = link.url | remove:'index.html' | remove:'/' %}
       {% if page.title and page.layout == "page" %}
-        <a href="{{ page.url | relative_url }}" {% if site.url contains page.url %} class="active"{% endif %}>{{ page.title }} {{ site.url }} {{ page.url }}</a>
+        <a href="{{ page.url | relative_url }}" {% if url == link_url %}class="active" aria-current="page"{% endif %}>
+          {{ page.title }}
+        </a>
       {% endif %}
     {% endfor %}
     <details open>
