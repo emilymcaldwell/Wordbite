@@ -1,9 +1,9 @@
 <aside>
-  <nav class="sidebar-nav" {% if page_url_normalized == link_url_normalized %}active{% endif %}>
+  <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     {% for page in site.pages %}
       {% if page.title and page.layout == "page" %}
-        <a href="{{ page.url | relative_url }}">
+        <a href="{{ page.url | relative_url }}" {% if page.url == link.url %}class="active"{% endif %}>
           {{ page.title }}
         </a>
       {% endif %}
