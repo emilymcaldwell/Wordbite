@@ -12,7 +12,7 @@
       <summary>Theme Guides</summary>
       <dl>
         {% for node in site.guides %}
-              <a href="{{ guide.url | absolute_url }}" {% if guide.url == node.url %}class="active"{% endif %}>{{ guide.title }}</a>
+          <a href="{{ guide.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ guide.title }}</a>
         {% endfor %}
       </dl>
     </details>
