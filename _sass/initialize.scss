@@ -3,7 +3,7 @@
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-margin-top: $padding-size;
+  scroll-margin-top: calc($header-height + $padding-size);
   padding: 0;
   margin: 0;
 }
