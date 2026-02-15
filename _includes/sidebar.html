@@ -21,7 +21,7 @@
       <summary>Notices/Updates</summary>
       <dl>
         {% for post in site.posts %}
-          <a href="{{ post.url }}" {% if page.url == post.url %}class="active"{% endif %}>{{ post.date | date: "%B %d, %Y" }}</a>
+          <a href="{{ post.url }}" {% if page.url == post.url %}class="active"{% endif %}>{{ post.date | date: "%B %e, %Y" }}</a>
         {% endfor %}
       </dl>
     </details>
