@@ -1,11 +1,19 @@
 <aside>
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    
+    {% assign url_parts = page.url | split: '/' %}
+    {% assign url_parts_size = url_parts | size %}
+    {% assign rm = url_parts | last %}
+    {% assign base_url = page.url | replace: rm %}
+
+    {% for node in site.pages %} {% if node.url contains base_url %} {% assign node_url_parts = node.url | split: ‘/’ %} {% assign node_url_parts_size = node_url_parts | size %} {% assign filename = node_url_parts | last %} {% if url_parts_size == node_url_parts_size and filename != ‘index.html’ %}
+    <a< span=””> href=‘{{node.url}}’>{{node.title}}</a<>
+    {% endif %} {% endif %} {% endfor %}
+
     {% for page in site.pages %}
       {% if page.title and page.layout == "page" %}
-        {% assign url = page.url | remove:'index.html' | remove:'/' %}
-        {% assign link_url = link.url | remove:'index.html' | remove:'/' %}
-        <a href="{{ page.url | relative_url }}" {% if url == link_url %}class="active" aria-current="page"{% endif %}>
+        <a href="{{ page.url | relative_url }}">
           {{ page.title }}
         </a>
       {% endif %}
