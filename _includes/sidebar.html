@@ -9,17 +9,10 @@
     {% endfor %}
 
     <details open>
-      <summary>guides</summary>
+      <summary>Theme Guides</summary>
       <dl>
         {% for node in site.guides %}
-          {% if node.url contains base_url %}
-            {% assign node_url_parts = node.url | split: '/' %}
-            {% assign node_url_parts_size = node_url_parts | size %}
-            {% assign filename = node_url_parts | last %}
-            {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
               <a href="{{ guide.url | absolute_url }}" {% if guide.url == node.url %}class="active"{% endif %}>{{ guide.title }}</a>
-            {% endif %}
-          {% endif %}
         {% endfor %}
       </dl>
     </details>
