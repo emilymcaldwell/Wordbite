@@ -73,7 +73,7 @@ aside {
       }
 
       &[open] summary {
-        color: var(--accent);
+        color: $accent-colour;
       }
 
       &[open] summary::after {
