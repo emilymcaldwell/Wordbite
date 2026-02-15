@@ -8,7 +8,7 @@
         {% assign node_url_parts_size = node_url_parts | size %}
         {% assign filename = node_url_parts | last %}
         {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-          <a href="{{ node.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
+          <a href="{{ node.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ page.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -22,7 +22,7 @@
             {% assign node_url_parts_size = node_url_parts | size %}
             {% assign filename = node_url_parts | last %}
             {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-              <a href="{{ guide.url | absolute_url }}" {% if guide.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
+              <a href="{{ guide.url | absolute_url }}" {% if guide.url == node.url %}class="active"{% endif %}>{{ guide.title }}</a>
             {% endif %}
           {% endif %}
         {% endfor %}
