@@ -3,9 +3,11 @@
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>{{ site.title | escape }}</a>
 
     {% for node in site.pages %}
-    {% unless node.title contains 'Home' %}
-      <a href="{{ node.url | absolute_url }}" {% if page.url==node.url %}class="active" {% endif %}>{{ node.title }}</a>
-    {% endunless %}
+      {% if page.title and page.layout == "page" %}
+      {% unless node.title contains 'Home' %}
+        <a href="{{ node.url | absolute_url }}" {% if page.url==node.url %}class="active" {% endif %}>{{ node.title }}</a>
+      {% endunless %}
+      {% endif %}
     {% endfor %}
 
     <details open>
