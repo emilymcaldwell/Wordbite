@@ -200,9 +200,11 @@ table {
   inset-block-start: anchor(start);
   inset-inline-start: anchor(self-end);
   height: stretch;
+  font-size: 0.8rem;
 
   .toc-h1 {
     position: sticky;
     top: calc($header-height + $padding-size);
+    list-style-type: none;
   }
 }
