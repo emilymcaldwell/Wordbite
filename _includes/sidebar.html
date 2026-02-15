@@ -2,19 +2,11 @@
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>{{ site.title | escape }}</a>
 
-    <li class="current"><a href="/" title="">Home</a></li>
-    <li class="has-children">
-      <a href="#0" title="">All Pages</a>
-      <ul class="sub-menu">
-        {% for node in site.pages %}
-        {% unless node.title contains 'Home' %}
-        <li {% if page.url==node.url %}class="active" {% endif %}>
-          <a href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        </li>
-        {% endunless %}
-        {% endfor %}
-      </ul>
-    </li>
+    {% for node in site.pages %}
+    {% unless node.title contains 'Home' %}
+      <a href="{{ node.url | absolute_url }}" {% if page.url==node.url %}class="active" {% endif %}>{{ node.title }}</a>
+    {% endunless %}
+    {% endfor %}
 
     <details open>
       <summary>guides</summary>
