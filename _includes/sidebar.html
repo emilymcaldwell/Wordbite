@@ -17,11 +17,11 @@
       </dl>
     </details>
 
-    <details>
+    <details open>
       <summary>Notices/Updates</summary>
       <dl>
         {% for post in site.posts %}
-          <a href="{{ post.url }}" {% if page.url == post.url %}class="active"{% endif %}>{{ post.date }}</a>
+          <a href="{{ post.url }}" {% if page.url == post.url %}class="active"{% endif %}>{{ post.date | date: "%Y-%m-%d" }}</a>
         {% endfor %}
       </dl>
     </details>
