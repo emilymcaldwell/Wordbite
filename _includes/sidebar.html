@@ -12,7 +12,7 @@
       <summary>guides</summary>
       <dl>
         {% for guide in site.guides %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ guide.url | relative_url }}">{{ guide.title }}</a>
         {% endfor %}
       </dl>
     </details>
