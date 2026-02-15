@@ -16,8 +16,10 @@ aside {
   border-right: 1px solid $border-colour;
 
   nav {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    gap: 0.75rem;
+    position: sticky;
+    top: calc(2.5rem + ($padding-size * 3));
     margin-top: $padding-size;
 
     details {
