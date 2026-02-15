@@ -2,13 +2,13 @@
   <nav class="sidebar-nav">
     <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
-    {% for page in site.pages %}
-      {% if page.url contains base_url %}
-        {% assign page_url_parts = page.url | split: '/' %}
-        {% assign page_url_parts_size = page_url_parts | size %}
-        {% assign filename = page_url_parts | last %}
-        {% if url_parts_size == page_url_parts_size and filename != 'index.html' %}
-          <a href="{{ page.url | absolute_url }}" {% if page.url == page.url %}class="active"{% endif %}>{{ page.title }}</a>
+    {% for node in site.pages %}
+      {% if node.url contains base_url %}
+        {% assign node_url_parts = node.url | split: '/' %}
+        {% assign node_url_parts_size = node_url_parts | size %}
+        {% assign filename = node_url_parts | last %}
+        {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
+          <a href="{{ node.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
