@@ -8,7 +8,7 @@ url: ""
 collections:
   guides:
     output: true
-    permalink: /guides/:path/
+    permalink: /:guides/:path/
 
 plugins:
   - jekyll-feed
