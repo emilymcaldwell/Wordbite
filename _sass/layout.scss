@@ -20,7 +20,7 @@ aside {
     display: grid;
     gap: 0.75rem;
     position: sticky;
-    top: calc(2.5rem + ($padding-size * 3));
+    top: calc($header-height + $padding-size);
     margin-top: $padding-size;
 
     a {
@@ -202,6 +202,6 @@ table {
 
   .toc-h1 {
     position: sticky;
-    top: $padding-size;
+    top: calc($header-height + $padding-size);
   }
 }

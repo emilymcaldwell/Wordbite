@@ -2,9 +2,12 @@ header {
   display: flex;
   flex-direction: column;
   height: $header-height;
+  position: sticky;
+  transition-property: 0;
   background-color: color-mix(in srgb, transparent 50%, $background-colour 50%);
   backdrop-filter: blur(15px);
   border-bottom: 1px solid $border-colour;
+  z-index: 69;
 }
 
 .header-inner {
