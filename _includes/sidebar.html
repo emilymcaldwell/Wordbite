@@ -17,6 +17,15 @@
       </dl>
     </details>
 
+    <details open>
+      <summary>Notices/Updates</summary>
+      <dl>
+        {% for post in site.posts %}
+          <a href="{{ post.url }}" {% if page.url == post.url %}class="active"{% endif %}>{{ post.title }}</a>
+        {% endfor %}
+      </dl>
+    </details>
+
     <!--
     {% for page in site.pages %}
       {% if page.title and page.layout == "page" %}
