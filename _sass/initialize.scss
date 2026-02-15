@@ -52,7 +52,10 @@ a {
 
 dl {
   display: grid;
+  gap: 0.5rem;
   border-left: 2px solid $border-colour;
+  padding-left: 0.75rem;
+  margin: 0.75rem 0.5rem 0;
 }
 
 ol, ul {

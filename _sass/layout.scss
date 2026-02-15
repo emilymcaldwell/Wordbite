@@ -14,12 +14,12 @@
 
 aside {
   border-right: 1px solid $border-colour;
-}
 
-.sidebar-nav {
-  display: flex;
-  flex-direction: column;
-  margin-top: $padding-size;
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: $padding-size;
+  }
 }
 
 /********** MAIN CONTENT **********/
