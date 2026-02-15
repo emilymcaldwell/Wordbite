@@ -8,9 +8,7 @@
         {% assign node_url_parts_size = node_url_parts | size %}
         {% assign filename = node_url_parts | last %}
         {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-          <li {% if page.url == node.url %}class="active"{% endif %}>
-          <a href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        </li>
+          <a href="{{ node.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -22,6 +20,7 @@
         </a>
       {% endif %}
     {% endfor %}
+
     <details open>
       <summary>guides</summary>
       <dl>
