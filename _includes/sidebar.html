@@ -4,7 +4,7 @@
 
     {% for node in site.pages %}
       {% if node.title and node.layout == "page" %}
-        <a href="{{ node.url | absolute_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
+        <a href="{{ node.url | relative_url }}" {% if page.url == node.url %}class="active"{% endif %}>{{ node.title }}</a>
       {% endif %}
     {% endfor %}
 
@@ -12,7 +12,7 @@
       <summary>Theme Guides</summary>
       <dl>
         {% for guide in site.guides %}
-          <a href="{{ guide.url | absolute_url }}" {% if page.url == guide.url %}class="active"{% endif %}>{{ guide.title }}</a>
+          <a href="{{ guide.url | relative_url }}" {% if page.url == guide.url %}class="active"{% endif %}>{{ guide.title }}</a>
         {% endfor %}
       </dl>
     </details>
