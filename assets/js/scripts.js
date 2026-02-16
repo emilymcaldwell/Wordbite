@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const observerCallback = (entries) => {
     entries.forEach(entry => {
-      const id = entry.target.getAttribute('id');
+      const id = entry.target.getAttribute('h1[id], h2[id], h3[id]');
       const navLink = document.querySelector(`.toc-entry[href="#${id}"]`);
       
       if (entry.isIntersecting) {
