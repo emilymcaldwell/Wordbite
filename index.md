@@ -21,6 +21,7 @@ int main() {
 </div>
 
 <article>
+  <button onClick="changeTheme()">boop!</button>
   <h2>Lorem Ipsum</h2>
   <p>Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta.</p>
 </article>
