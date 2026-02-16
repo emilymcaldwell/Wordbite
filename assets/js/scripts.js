@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
       if (entry.isIntersecting) {
         // Remove active class from all and add to current
-        document.querySelectorAll('.toc-entry').forEach(link => link.classList.remove('active'));
+        document.querySelectorAll('.toc-entry a').forEach(link => link.classList.remove('active'));
         navLink?.classList.add('active');
       }
     });
