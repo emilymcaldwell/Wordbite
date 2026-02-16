@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const observerCallback = (entries) => {
     entries.forEach(entry => {
-      const id = entry.target.getAttribute('h1[id], h2[id], h3[id]');
-      const navLink = document.querySelector(`.toc-entry[href="#${id}"]`);
+      const id = entry.target.getAttribute('id');
+      const navLink = document.querySelector(`.toc-entry a[href="#${id}"]`);
       
       if (entry.isIntersecting) {
         // Remove active class from all and add to current
