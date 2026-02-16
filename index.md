@@ -17,7 +17,7 @@ int main() {
 
 {% highlight html %}
 <div id="myDiv" class="div">
-  <p>Hello World!</p>
+  <p>Hello World!</p> 
 </div>
 
 <article>
