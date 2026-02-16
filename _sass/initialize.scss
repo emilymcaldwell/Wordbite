@@ -204,7 +204,6 @@ h3 { font-size: 1rem; }
 }
 
 figure.highlight {
-  font-family: $mono-font;
   border: 1px solid $border-colour;
   padding: $padding-size;
   border-radius: $corner-rounding;
@@ -212,7 +211,7 @@ figure.highlight {
 
   pre {
     code {
-      font-family: inherit;
+      font-family: $mono-font;
       font-size: 100%;
       line-height: 1.5;
     }
