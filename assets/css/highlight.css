@@ -11,7 +11,7 @@ span.linenos.special { color: light-dark(#817F98, #817F98); background-color: va
 .highlight .c { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment */
 .highlight .ch { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.Hashbang */
 .highlight .cm { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.Preproc */
+.highlight .cp { color: light-dark(#FF61CE, #FF61CE); font-style: italic } /* Comment.Preproc */
 .highlight .cpf { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.PreprocFile */
 .highlight .c1 { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.Single */
 .highlight .cs { color: light-dark(#817F98, #817F98); font-style: italic } /* Comment.Special */
@@ -23,8 +23,8 @@ span.linenos.special { color: light-dark(#817F98, #817F98); background-color: va
 .highlight .gt { color: light-dark(#FF61CE, #FF61CE) } /* Generic.Traceback */
 
 /* Operators and Punctuation */
-.highlight .o { color: light-dark(#817FA4, #817FA4); opacity: .7 } /* Operator */
-.highlight .ow { color: light-dark(#817FA4, #817FA4); opacity: .7; font-style: italic } /* Operator.Word */
+.highlight .o { color: light-dark(#FF61CE, #FF61CE) } /* Operator */
+.highlight .ow { color: light-dark(#817FA4, #817FA4); font-style: italic } /* Operator.Word */
 .highlight .p { color: light-dark(#817FA4, #817FA4) } /* Punctuation */
 .highlight .pm { color: light-dark(#817FA4, #817FA4) } /* Punctuation.Marker */
 
@@ -77,9 +77,9 @@ span.linenos.special { color: light-dark(#817F98, #817F98); background-color: va
 .highlight .fm { color: light-dark(#727BFA, #727BFA) } /* Name.Function.Magic */
 .highlight .nl { color: light-dark(#727BFA, #727BFA) } /* Name.Label */
 .highlight .nn { color: light-dark(#FF61CE, #FF61CE) } /* Name.Namespace */
-.highlight .nx { color: light-dark(#37386A, #F4F2FF) } /* Name.Other */
+.highlight .nx { color: light-dark(#5459AF, #BABFFD) } /* Name.Other */
 .highlight .py { color: light-dark(#727BFA, #727BFA) } /* Name.Property */
-.highlight .nt { color: light-dark(#808c83, #727BFA) } /* Name.Tag */
+.highlight .nt { color: light-dark(#eca842, #FAF172) } /* Name.Tag */
 .highlight .nv { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable */
 .highlight .vc { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable.Class */
 .highlight .vg { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable.Global */

@@ -19,6 +19,11 @@ int main() {
 <div id="myDiv">
   <p>Hello World!</p>
 </div>
+
+<article>
+  <h2>Lorem Ipsum</h2>
+  <p>Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta.</p>
+</article>
 {% endhighlight %}
 
 {% highlight javascript %}
