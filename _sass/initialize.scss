@@ -232,6 +232,11 @@ figure.highlight {
   border: 1px solid $border-colour;
   border-radius: $corner-rounding;
 
+  &::-webkit-scrollbar {
+    border-top: 1px solid $border-colour; 
+    border-left: 0;
+  }
+
   pre {
     code {
       display: block;
