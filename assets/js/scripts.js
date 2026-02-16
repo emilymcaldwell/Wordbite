@@ -20,3 +20,25 @@ function changeTheme() {
       elem.style.colorScheme = localStorage.getItem('theme');
   }
 }
+
+function initScrollSpy() {
+  const headings = document.querySelectorAll('h2[id], h3[id], h4[id]');
+  const tocLinks = document.querySelectorAll('.toc-entry');
+  
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach((link) => link.classList.remove('active'));
+          const activeLink = document.querySelector(
+            `.toc-entry[href="#${entry.target.id}"]`
+          );
+          activeLink?.classList.add('active');
+        }
+      });
+    },
+    { rootMargin: '-20% 0% -70% 0%' }
+  );
+  
+  headings.forEach((heading) => observer.observe(heading));
+}

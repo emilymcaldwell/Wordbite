@@ -9,22 +9,6 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/styles.css' | relative_url }}">
     <script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-scrollspy@2.5.3/demo/dist/simple-scrollspy.min.js"></script>
-    <script>
-    window.onload = function () {
-      scrollSpy('#toc', {
-        sectionClass: '.scrollspy',
-        menuActiveTarget: '.toc-entry',
-        offset: 100,
-        // smooth scroll
-        smoothScroll: true,
-        smoothScrollBehavior: function(element) {
-          console.log('run "smoothScrollBehavior"...', element)
-          element.scrollIntoView({ behavior: 'smooth' }) // default behavior
-        }
-      })
-    }
-  </script>
     {% seo %}
   </head>
 
