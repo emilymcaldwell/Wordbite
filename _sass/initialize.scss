@@ -38,6 +38,31 @@ body {
   padding: 0 $padding-size;
 }
 
+::selection {
+  color: var$accent-colour;
+  background-color: color-mix(in srgb, $accent-colour 30%, $background-colour 70%);
+}
+
+::-webkit-scrollbar { 
+  width: 21px; height: 21px; 
+  background-color: $background-colour; 
+  border-left: 1px solid $border-colour; 
+}
+
+::-webkit-scrollbar-track { 
+  background-clip: padding-box; 
+  border-radius: 20px; 
+  background-color: $border-colour; 
+  border: 8px solid transparent; 
+}
+
+::-webkit-scrollbar-thumb { 
+  background-clip: padding-box; 
+  border-radius: 20px; 
+  background-color: $accent-colour; 
+  border: 8px solid transparent; 
+}
+
 a {
   font-weight: 550;
   color: $link-colour;
