@@ -13,9 +13,9 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
-{% endhighlight linenos  %}
+{% endhighlight %}
 
-{% highlight html %}
+{% highlight html linenos %}
 <div id="myDiv" class="div">
   <p>Hello World!</p> 
 </div>
