@@ -16,7 +16,7 @@ int main() {
 {% endhighlight %}
 
 {% highlight html %}
-<div id="myDiv">
+<div id="myDiv" class="div">
   <p>Hello World!</p>
 </div>
 
