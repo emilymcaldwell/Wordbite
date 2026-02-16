@@ -21,5 +21,8 @@ toc:
   list_class: toc-list
   sublist_class: toc-sublist
 
-markdown: kramdown
-highlighter: rouge
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    guess_lang: true
+    line_numbers: true
