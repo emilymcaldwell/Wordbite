@@ -15,11 +15,13 @@ int main() {
 }
 {% endhighlight %}
 
-{% highlight %}
+{% highlight html %}
 <div id="myDiv">
   <p>Hello World!</p>
 </div>
-  
+{% endhighlight %}
+
+{% highlight javascript %}
 function switchTab(event, tabName) {
 document.querySelectorAll("section").forEach(content => content.style.display = "none");
 document.querySelectorAll("aside a").forEach(link => link.classList.remove("active"));
