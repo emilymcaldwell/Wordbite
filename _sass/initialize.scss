@@ -204,8 +204,17 @@ h3 { font-size: 1rem; }
 }
 
 figure.highlight {
+  font-family: $mono-font;
   border: 1px solid $border-colour;
   padding: $padding-size;
   border-radius: $corner-rounding;
   overflow-x: auto;
+
+  pre {
+    code {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.5;
+    }
+  }
 }
