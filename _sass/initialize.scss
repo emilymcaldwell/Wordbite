@@ -202,3 +202,10 @@ h3 { font-size: 1rem; }
       'opsz' 24;
   }
 }
+
+figure.highlight {
+  border: 1px solid $border-colour;
+  padding: $padding-size;
+  border-radius: $corner-rounding;
+  overflow-x: auto;
+}
