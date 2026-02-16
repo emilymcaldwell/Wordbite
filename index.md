@@ -22,13 +22,16 @@ int main() {
 
 <article>
   <button onClick="changeTheme()">boop!</button>
-  ::before
   <h2>Lorem Ipsum</h2>
   <p>Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta.</p>
 </article>
 {% endhighlight %}
 
 {% highlight javascript %}
+<div id="myDiv" class="div">
+  <p>Hello World!</p>
+</div>
+
 function switchTab(event, tabName) {
 document.querySelectorAll("section").forEach(content => content.style.display = "none");
 document.querySelectorAll("aside a").forEach(link => link.classList.remove("active"));

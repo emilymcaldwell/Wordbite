@@ -16,9 +16,9 @@ span.linenos.special { color: light-dark(#817F98, #817F98); padding-left: 5px; p
 .highlight .sd { color: light-dark(#817F98, #817F98); font-style: italic } /* Literal.String.Doc */
 
 /* Errors */
-.highlight .err { color: light-dark(#FF61CE, #FF61CE) } /* Error */
-.highlight .gr { color: light-dark(#FF61CE, #FF61CE) } /* Generic.Error */
-.highlight .gt { color: light-dark(#FF61CE, #FF61CE) } /* Generic.Traceback */
+.highlight .err { color: light-dark(#FF61CE, #FF61CE); background-color: color-mix(in srgb, #FF61CE 20%, transparent 80%); } /* Error */
+.highlight .gr { color: light-dark(#FF61CE, #FF61CE); background-color: color-mix(in srgb, #FF61CE 20%, transparent 80%); } /* Generic.Error */
+.highlight .gt { color: light-dark(#FF61CE, #FF61CE); background-color: color-mix(in srgb, #FF61CE 20%, transparent 80%); } /* Generic.Traceback */
 
 /* Operators and Punctuation */
 .highlight .o { color: light-dark(#FF61CE, #FF61CE); } /* Operator */
