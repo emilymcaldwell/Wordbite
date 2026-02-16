@@ -202,6 +202,12 @@ table {
   height: stretch;
   font-size: 0.8rem;
 
+  .toc-entry {
+    &.active {
+      color: $red;
+    }
+  }
+
   .toc-h1 {
     position: sticky;
     top: calc($header-height + $padding-size);
