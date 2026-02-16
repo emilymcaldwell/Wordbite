@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<pre><code>#include
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}</code></pre>
+{% highlight javascript %}
+document.write("JavaScript is a simple language for javatpoint learners");
+{% endhighlight %}
