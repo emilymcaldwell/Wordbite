@@ -2,4 +2,9 @@
 layout: default
 ---
 
-# index
+<pre><code>#include
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}</code></pre>

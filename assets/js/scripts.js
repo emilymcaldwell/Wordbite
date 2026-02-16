@@ -24,7 +24,7 @@ function changeTheme() {
 document.addEventListener("DOMContentLoaded", function () {
   const observerOptions = {
     root: null, // use the viewport
-    rootMargin: '0px 0px -80% 0px', // trigger when header is in top 20% of screen
+    rootMargin: '0px 0px -70% 0px', // trigger when header is in top 20% of screen
     threshold: 0
   };
 
