@@ -10,8 +10,8 @@ document.write("JavaScript is a simple language for javatpoint learners");
 #include
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  std::cout << "Hello, World!" << std::endl;
+  return 0;
 }
 {% endhighlight %}
 
