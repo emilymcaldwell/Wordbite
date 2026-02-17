@@ -63,6 +63,14 @@ body {
   border: 8px solid transparent; 
 }
 
+::-webkit-scrollbar:vertical { 
+  border-left: 1px solid $border-colour; 
+}
+
+::-webkit-scrollbar:horizontal { 
+  border-top: 1px solid $border-colour; 
+}
+
 a {
   font-weight: 550;
   color: $link-colour;
@@ -232,11 +240,6 @@ h3 { font-size: 1rem; }
   border: 1px solid $border-colour;
   border-radius: $corner-rounding;
   overflow: hidden;
-
-  ::-webkit-scrollbar {
-    border-top: 1px solid $border-colour; 
-    border-left: 0;
-  }
 
   pre {
     code {
