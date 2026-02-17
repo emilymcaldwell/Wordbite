@@ -5,7 +5,7 @@ layout: post
 {% for theme in site.data.themes %}
   {{ theme.name }}
   {{ theme.description }}
-  {{ theme.guide }}
+  [theme guide]({{ theme.guide | relative_url }})
 {% endfor %}
 
 {% highlight javascript %}
