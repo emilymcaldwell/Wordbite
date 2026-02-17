@@ -27,23 +27,3 @@ permalink: /about/
     {% endfor %}
   </tbody>
 </table>
-
-## Reading List
-
-{% for book in site.data.books %}
-| Title | Author | Status | Rating | Date Read |
-| --- | --- | --- | --- | --- |
-| {{ book.title }} | {{ book.author }}| {{ book.status }} | {{ book.rating }} | {{ book.date | date: "%B %-d, %Y" }} |
-{: .table-sort .table-arrows-▴▸▾ .remember-sort}
-{% endfor %}
-
-
-{% capture table_content %}
-| Header A | Header B |
-|---|---|
-{% for book in site.data.books %}
-| {{ book.title }} | Simple Text |
-{% endfor %}
-{% endcapture %}
-
-{{ table_content | markdownify }}
