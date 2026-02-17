@@ -217,4 +217,8 @@ table {
     top: calc($header-height + $padding-size);
     list-style-type: none;
   }
+
+  .toc-h2 {
+    list-style-type: none;
+  }
 }
