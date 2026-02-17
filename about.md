@@ -30,9 +30,9 @@ permalink: /about/
 
 ## Reading List
 
+{% for book in site.data.books %}
 | Title | Author | Status | Rating | Date Read |
 | --- | --- | --- | --- | --- |
-{% for book in site.data.books %}
 | {{ book.title }} | {{ book.author }}| {{ book.status }} | {{ book.rating }} | {{ book.date | date: "%B %-d, %Y" }} |
-{% endfor %}
 {: .table-sort .table-arrows-▴▸▾ .remember-sort}
+{% endfor %}
