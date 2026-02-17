@@ -4,9 +4,13 @@ layout: post
 
 {% assign sorted = site.data.themes | sort: "released" | reverse %}
 {% assign latest = sorted | first %}
-{{ latest.name }} - {{ latest.date | date: "%B %d, %Y" }}
-{{ latest.description }}
-[theme guide]({{ latest.guide | relative_url }})
+  ## {{ latest.name }}
+
+  {{ latest.released | date: "%B %d, %Y" }}
+
+  {{ latest.description }}
+  
+  [theme guide]({{ latest.guide | relative_url }})
 
 {% highlight javascript %}
 document.write("JavaScript is a simple language for javatpoint learners");
