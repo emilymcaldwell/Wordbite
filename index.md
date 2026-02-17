@@ -3,6 +3,9 @@ layout: post
 ---
 
 {% for theme in site.data.themes %}
+{% assign sorted = site.data.themes | sort: "released" | reverse %}
+{% assign latest = sorted | first %}
+  {{ latest.name }} - {{ latest.date | date: "%B %d, %Y" }}
   {{ theme.name }}
   {{ theme.description }}
   [theme guide]({{ theme.guide | relative_url }})
