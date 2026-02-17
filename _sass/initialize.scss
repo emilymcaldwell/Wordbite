@@ -39,7 +39,7 @@ body {
 }
 
 ::selection {
-  color: var$accent-colour;
+  color: $accent-colour;
   background-color: color-mix(in srgb, $accent-colour 30%, $background-colour 70%);
 }
 
