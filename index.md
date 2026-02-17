@@ -6,11 +6,8 @@ layout: post
 {% assign latest = sorted | first %}
 
 ## {{ latest.name }}
-
 {{ latest.released | date: "%B %d, %Y" }}
-
 {{ latest.description }}
-
 [theme guide]({{ latest.guide | relative_url }})
 
 {% highlight javascript %}
