@@ -1,13 +1,16 @@
 ---
-layout: post
+layout: default
 ---
 
+<article>
 {% assign sorted = site.data.themes | sort: "released" | reverse %}
 {% assign latest = sorted | first %}
-  {{ latest.name }} - {{ latest.date | date: "%B %d, %Y" }}
-  {{ latest.description }}
-  [theme guide]({{ latest.guide | relative_url }})
+{{ latest.name }} - {{ latest.date | date: "%B %d, %Y" }}
+{{ latest.description }}
+[theme guide]({{ latest.guide | relative_url }})
+</article>
 
+<article>
 {% highlight javascript %}
 document.write("JavaScript is a simple language for javatpoint learners");
 {% endhighlight %}
@@ -47,3 +50,4 @@ console.log("big peen energy")
 // This is a unsolicited comment about your dick
 setBigDickValue();
 {% endhighlight %}
+</article>
