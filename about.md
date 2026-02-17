@@ -31,4 +31,4 @@ permalink: /about/
 | Title | Author | Status{:.data-sort} | Rating`{:.data-sort}` | Date Read{:.onload-sort.order-by-desc.data-sort} |
 | ----- | ------ | ------------------- | ------------------- | ------------------------------------------------ |
 | {{ book.title }}{:.book-title} | {{ book.author }}{:.book-author} | {{ book.status }} | {{ book.rating }} | {{ book.date | date: "%B %-d, %Y" }} |
-{:.table-sort .table-arrows-▴▸▾ .remember-sort}
+{: .table-sort .table-arrows-▴▸▾ .remember-sort}
