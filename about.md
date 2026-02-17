@@ -29,7 +29,7 @@ permalink: /about/
 
 | Book Title | Author | Date Read |
 | --- | --- | --- |
-{% for book in site.data.books %}
+{::nomarkdown}{% for book in site.data.books %}{:/}
 | {{ book.title }} | {{ book.author }} | {{ book.date | date: "%B %-d, %Y" }} |
-{% endfor %}
+{::nomarkdown}{% endfor %}{:/}
 {: .table-sort}
