@@ -6,9 +6,8 @@ layout: post
 {% assign sorted = site.data.themes | sort: "released" | reverse %}
 {% assign latest = sorted | first %}
   {{ latest.name }} - {{ latest.date | date: "%B %d, %Y" }}
-  {{ theme.name }}
-  {{ theme.description }}
-  [theme guide]({{ theme.guide | relative_url }})
+  {{ latest.description }}
+  [theme guide]({{ latest.guide | relative_url }})
 {% endfor %}
 
 {% highlight javascript %}
