@@ -76,7 +76,7 @@
 .highlight .nn { color: light-dark(#FF61CE, #FF61CE) } /* Name.Namespace */
 .highlight .nx { color: light-dark(#5459AF, #BABFFD) } /* Name.Other */
 .highlight .py { color: light-dark(#727BFA, #727BFA) } /* Name.Property */
-.highlight .nt { color: light-dark(#817F98, #817F98) } /* Name.Tag */
+.highlight .nt { color: light-dark(#5459AF, #BABFFD) } /* Name.Tag */
 .highlight .nv { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable */
 .highlight .vc { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable.Class */
 .highlight .vg { color: light-dark(#5459AF, #BABFFD) } /* Name.Variable.Global */
