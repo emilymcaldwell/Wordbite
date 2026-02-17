@@ -2,6 +2,11 @@
 layout: post
 ---
 
+{% for theme in site.data.themes %}
+  {{ theme.name }}
+  {{ theme.description }}
+{% endfor %}
+
 {% highlight javascript %}
 document.write("JavaScript is a simple language for javatpoint learners");
 {% endhighlight %}
