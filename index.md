@@ -5,6 +5,7 @@ layout: post
 {% for theme in site.data.themes %}
   {{ theme.name }}
   {{ theme.description }}
+  {{ theme.guide }}
 {% endfor %}
 
 {% highlight javascript %}
