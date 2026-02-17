@@ -2,11 +2,11 @@
 layout: post
 ---
 
-{% highlight javascript linenos  %}
+{% highlight javascript %}
 document.write("JavaScript is a simple language for javatpoint learners");
 {% endhighlight %}
 
-{% highlight cpp linenos  %}
+{% highlight cpp %}
 #include
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
 }
 {% endhighlight %}
 
-{% highlight html linenos %}
+{% highlight html%}
 <div id="myDiv" class="div">
   <p>Hello World!</p> 
 </div>
@@ -27,7 +27,7 @@ int main() {
 </article>
 {% endhighlight %}
 
-{% highlight javascript linenos  %}
+{% highlight javascript %}
 <div id="myDiv" class="div">
   <p>Hello World!</p>
 </div>
