@@ -1,7 +1,7 @@
 - name: Infinity
   description: |
     **Infinity** is a responsive, single column Tumblr theme inspired by the look and feel of Twitter.
-  guide: /guides/infinity.md
+  guide: /guides/infinity
   price:
   preview: 
   kofi:
