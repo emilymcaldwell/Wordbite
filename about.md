@@ -28,7 +28,9 @@ permalink: /about/
   </tbody>
 </table>
 
-| Title | Author | Status{:.data-sort} | Rating`{:.data-sort}` | Date Read{:.onload-sort.order-by-desc.data-sort} |
+{% for book in site.data.books %}
+| Title | Author | Status | Rating | Date Read |
 | ----- | ------ | ------------------- | ------------------- | ------------------------------------------------ |
-| {{ book.title }}{:.book-title} | {{ book.author }}{:.book-author} | {{ book.status }} | {{ book.rating }} | {{ book.date | date: "%B %-d, %Y" }} |
+| {{ book.title }} | {{ book.author }}| {{ book.status }} | {{ book.rating }} | {{ book.date | date: "%B %-d, %Y" }} |
 {: .table-sort .table-arrows-▴▸▾ .remember-sort}
+{% endfor %}
