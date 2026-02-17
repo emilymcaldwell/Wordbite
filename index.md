@@ -28,10 +28,6 @@ int main() {
 {% endhighlight %}
 
 {% highlight javascript %}
-<div id="myDiv" class="div">
-  <p>Hello World!</p>
-</div>
-
 function switchTab(event, tabName) {
 document.querySelectorAll("section").forEach(content => content.style.display = "none");
 document.querySelectorAll("aside a").forEach(link => link.classList.remove("active"));
