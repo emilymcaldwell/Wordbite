@@ -1,5 +1,5 @@
 .gutter { width: 0; }
-.lineno { color: light-dark(#817F98, #817F98); padding-left: 5px; padding-right: 5px; }
+.lineno { color: light-dark(#817F98, #817F98); width: 1em; text-align: right; margin-right: 1em; }
 .highlight .hll { background-color: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.1)) }
 .highlight { color: light-dark(#37386A, #F4F2FF) }
 
