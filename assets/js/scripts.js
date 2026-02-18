@@ -52,3 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.querySelectorAll('.table-sort td:nth-child(4)').forEach(function(element) {
     element.classList.add('book-rating');
 });
+
+document.querySelectorAll('.table-sort td:nth-child(3)').forEach(function(element) {
+    element.classList.add('book-status');
+});
