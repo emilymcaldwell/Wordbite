@@ -48,3 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(header);
   });
 });
+
+// Get the element
+let element = document.querySelectorAll(".table-sort th:nth-child(3)");
+
+// Add a single class
+element.classList.add("data-sort");
