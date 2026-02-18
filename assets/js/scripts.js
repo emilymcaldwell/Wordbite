@@ -49,6 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.querySelectorAll('.table-sort th:nth-child(3)').forEach(function(element) {
-    element.classList.add('data-sort');
+document.querySelectorAll('.table-sort td:nth-child(4)').forEach(function(element) {
+    element.classList.add('book-rating');
 });
