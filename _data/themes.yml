@@ -1,17 +1,17 @@
 - name: Infinity
   description: |
-    **Infinity** is a responsive, single column Tumblr theme inspired by the look and feel of Twitter.
+    Infinity is a responsive, single column Tumblr theme inspired by the look and feel of Twitter.
   guide: /guides/infinity
   price:
   preview: 
   kofi:
-  released: 2026-01-13
+  released: 2026-02-13
 
 - name: Dash
   description: |
-    **Dash** is a responsive, single column Tumblr theme inspired by the look and feel of the Tumblr dashboard.
+    Dash is a responsive, single column Tumblr theme inspired by the look and feel of the Tumblr dashboard.
   guide: /guides/dash
   price:
   preview: 
   kofi:
-  released: 2026-02-14
+  released: 2026-01-14
