@@ -26,10 +26,3 @@ permalink: /about/
     {% endfor %}
   </tbody>
 </table>
-
-| Book Title | Author | Status | Rating | Date Read |
-| --- | --- | --- | --- | --- |
-{%- for book in site.data.books %}
-| {{ book.title }} | {{ book.author }} | {{ book.status}} | <span style="width:{{ book.rating | times:20 | round: 0 }}%">star_ratestar_ratestar_ratestar_ratestar_rate</span> | {{ book.date | date: "%B %-d, %Y" }} |
-{%- endfor %}
-{: .table-sort}
