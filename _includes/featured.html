@@ -1,8 +1,13 @@
 <div class="card">
   {% assign sorted = site.data.themes | sort: "released" | reverse %}
   {% assign latest = sorted | first %}
-  <div class="title">{{ latest.name }}</div>
-  <div class="description">{{ latest.description }}</div>
-  <div class="release-date">{{ latest.released | date: "%B %d, %Y" }}</div>
-  <a class="guide" href="{{ latest.guide | relative_url }}">theme guide</a>
+  <div class="latest-release">
+    <img src="{{ latest.preview | relative_url }}" />
+    <div class="theme-info">
+      <div class="title">{{ latest.name }}</div>
+      <div class="description">{{ latest.description }}</div>
+      <div class="release-date">{{ latest.released | date: "%B %d, %Y" }}</div>
+      <a class="guide" href="{{ latest.guide | relative_url }}">theme guide</a>
+    </div>
+  </div>
 </div>
