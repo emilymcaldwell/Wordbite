@@ -12,6 +12,9 @@
   }
 
   .theme-info {
+    display: flex;
+    flex-direction: column;
+    gap: $padding-size;
     padding: $padding-size;
   }
 }
