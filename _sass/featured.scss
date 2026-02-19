@@ -14,7 +14,7 @@
   .theme-info {
     display: flex;
     flex-direction: column;
-    gap: $padding-size;
+    gap: calc($padding-size / 2);
     padding: $padding-size;
   }
 }
