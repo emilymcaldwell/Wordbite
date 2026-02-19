@@ -1,6 +1,7 @@
 .latest-release {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: $padding-size;
 
   img {
     width: 100%;
