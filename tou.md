@@ -29,8 +29,8 @@ All works distributed on this site are final sale and sold as-is. I ***do not***
 
 ## Disclaimer
 
-I reserve the right to: [a] make changes and improvements to the information provided herein at any time, [b] with or without any prior notice – revoke your access to purchased themes for any reason, and [c] with or without any prior notice – change, modify, or discontinue any themes offered on this site.
+I reserve the right to: (a) make changes and improvements to the information provided herein at any time, (b) with or without any prior notice – revoke your access to purchased themes for any reason, and (c) with or without any prior notice – change, modify, or discontinue any themes offered on this site.
 
-© 2026 Wordbite. All rights reserved.
+© {{ site.time | date: "%Y" }} Wordbite. All rights reserved.
 
 **Last Modified:** January 15, 2026 
