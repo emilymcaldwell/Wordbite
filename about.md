@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+toc: true
 ---
 
 <table class="table-sort table-arrows-▴▸▾ remember-sort">
